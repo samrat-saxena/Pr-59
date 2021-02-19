@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title> My Favorite Hobby </title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="links"> <a href="index.html"> Home </a> </li>
+        <li class="links"> <a href="index2.html"> My Creations </a> </li>
+        <li class="links"> <a> Contact </a> </li>
+    </ul>
+    <section id="topSection">
+        <div id="mainCell">
+            <img src="Screen%20Shot%202018-12-08%20at%204.45.18%20PM_0.jpg" id="ProgImage">
+            <h1> My Favorite Hobby </h1>
+            <h2> Programming </h2>
+        </div>
+    </section>
+    <section id="bottomSection">
+        <h1 class="line"> Hi! </h1>
+        <div>
+            <p> My favorite hobby is programming. I like coding games, applications and webpages. I know that working long on computers is wrong but I'm addicted. This started whem my sister made me a presentation including my and her photos. I tried to do the same and she appreciated that. That's how I started using tech, all day. My parents also support me doing this. Whenever they need help which needs to be solved with tech, they ask me. I love doing this. </p>
+        </div>
+    </section>
+    <style>
+        body {
+            text-align: center;
+            padding-top: 650px;
+        }
+
+        #ProgImage {
+            border-radius: 50px;
+            width: 150px;
+            height: 150px;
+        }
+
+        h1 {
+            font-family: 'Lobster', cursive;
+        }
+
+        h3 {
+            font-family: monospace
+        }
+
+        #topSection {
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            opacity: 0.83;
+            background: linear-gradient(aqua 0%, lime 100%);
+            display: table;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            z-index: 9;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .line {
+            border-bottom: solid;
+            border-bottom-color: black;
+        }
+
+        #mainCell {
+            display: table-cell;
+            position: relative;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .menu {
+            list-style: none;
+            font-family: sans-serif;
+            position: absolute;
+            top: 10px;
+            right: 30px;
+            z-index: 10;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .links {
+            float: left;
+            color: black;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-left: 9px;
+            padding-right: 9px;
+            font-family: sans-serif;
+        }
+
+        a:hover {
+            color: blueviolet;
+        }
+
+        .links:hover {
+            background-color: white;
+        }
+    </style>
+</body></html>
